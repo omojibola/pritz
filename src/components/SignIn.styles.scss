@@ -1,0 +1,73 @@
+$sub-color: #a7a0d2;
+$main-color: #3d2fbe;
+$sub-color-2: #454547;
+
+.sign-in {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  .title {
+    margin: 10px 0;
+  }
+}
+
+.google {
+  padding: 5px 25px;
+  background-color: #fafaff;
+  border: 1px solid #a7a0d2;
+  color: #2f2f31;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+
+  &:hover {
+    background-color: $main-color;
+    color: #fff;
+    transition: 200ms ease-in;
+  }
+}
+
+.sign-in-button {
+  padding: 5px 25px;
+  background-color: $main-color;
+  border: 1px solid #a7a0d2;
+  color: #fff;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+  &:hover {
+    background-color: #0d0373;
+    color: #fff;
+    transition: 200ms ease-in;
+  }
+}
+
+.text {
+  margin-right: 10px;
+  font-size: 14px;
+  color: $sub-color-2;
+}
+
+.text-center {
+  margin: 30px;
+}
+
+.sign-up {
+  color: $main-color;
+}
+
+.error {
+  color: #db2269;
+  font-size: 13px;
+  display: relative;
+}
