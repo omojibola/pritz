@@ -25,7 +25,7 @@ const WrappedModal = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 50rem;
+  max-width: 40rem;
   box-shadow: 0 0.5rem 3.5em var(--shadow);
   border-radius: 0.5rem;
   background-color: var(--color-mainLighter);

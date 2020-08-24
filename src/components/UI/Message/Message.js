@@ -13,6 +13,7 @@ const P = styled.p`
   transform: translateY(${({ show }) => (show ? "20px" : "0px")});
   transition: all 0.2s;
   align-items: center;
+  margin-bottom: 0;
 `;
 
 const Message = ({ children, error, success, show }) => {

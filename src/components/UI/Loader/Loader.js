@@ -15,10 +15,14 @@ display: inline-block;
     width: 64px;
     height: 64px;
     margin: 8px;
-    border: 8px solid var(--color-main);
+    border:6px solid ${({ isWhite }) =>
+      isWhite ? "#fff" : "var(--color-main)"};
     border-radius: 50%;
     animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-    border-color: var(--color-main) transparent transparent transparent;
+    border-color: ${({ isWhite }) =>
+      isWhite
+        ? "#fff"
+        : "var(--color-main)"} transparent transparent transparent;
   
 
   &:nth-child(1) {
@@ -43,9 +47,9 @@ display: inline-block;
    
 `;
 
-const Loader = () => {
+const Loader = ({ isWhite }) => {
   return (
-    <StyledLoader>
+    <StyledLoader isWhite={isWhite}>
       <div></div>
       <div></div>
       <div></div>

@@ -7,3 +7,5 @@ export {
   editProfile,
   deleteUser,
 } from "./authActions";
+
+export { addNote } from "./noteActions.js";

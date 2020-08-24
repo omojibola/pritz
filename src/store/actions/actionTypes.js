@@ -17,3 +17,9 @@ export const PROFILE_EDIT_FAIL = "PROFILE_EDIT_FAIL";
 
 export const DELETE_START = "DELETE_START";
 export const DELETE_FAIL = "DELETE_FAIL";
+
+// Notes
+
+export const ADD_NOTE_START = "ADD_NOTE_START";
+export const ADD_NOTE_SUCCESS = "ADD_NOTE_SUCCESS";
+export const ADD_NOTE_FAIL = "ADD_NOTE_FAIL";

@@ -27,6 +27,7 @@ const StyledButton = styled.button`
   }};
   border: none;
   transition: all 0.2s;
+  outline: none !important;
 
   &:hover {
     transform: translateY(-3px);
@@ -34,7 +35,7 @@ const StyledButton = styled.button`
 
   &:active {
     transform: translateY(2px);
-    outline: none;
+    outline: none !important;
   }
 
   &:disabled {
